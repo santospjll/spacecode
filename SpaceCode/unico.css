@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+ background-color: #ffffff;
+
+
+
+}
+header {
+    background-color: #282829;
+    box-shadow: 0px 3px 10px #000000;
+}
+.navegation {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem 6rem;
+}
+.logo {
+    color: #fff;
+    display: flex;
+    align-items: center;
+}
+.nav-list {
+    display: flex;
+    align-items: center;
+}
+.nav-list ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+.nav-items {
+    margin: 0 15px;
+}
+.nav-link {
+    text-decoration: none;
+    font-size: 1.15rem;
+    color: #fff;
+    font-weight: 600;
+}
+.nav-link:hover {
+    color: rgb(187, 140, 219);
+    font-size: 19px;
+    transition: 0.5s;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 7px;
+}
+.button button {
+    border: none;
+    background-color: blue;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.button button a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+}
+.button button:hover {
+    background-color: rgb(16, 55, 202);
+}
+.banner{
+    height: 100vh;
+    background: linear-gradient( rgba(0,0,0,0.281), rgba(0,0,0,0.308)),url('niacartchallenge.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.texto .titulo{
+    color: #fff;
+    font-size: 60px;
+    font-weight: 600;
+}
+.texto .sub_titulo{
+    color: #fff;
+    font-size: 58px;
+    font-weight: 600;
+}
+.texto .botoes{
+    margin-top: 30px;
+}
+.texto .botoes button{
+    height: 55px;
+    width: 170px;
+    border-radius: 5px;
+    border: 0;
+    margin: 0 10px;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 0 10px;
+    cursor: pointer;
+    outline: none;
+    transition: 0.3s;
+}
+.texto .botoes button.n-overlay{
+    color: white;
+    background: none;
+    border: 2px solid white;
+}
+.texto .botoes button.n-overlay:hover{
+    color: black;
+    background-color: white;
+}
+.texto .botoes button.overlay{
+    background: white;
+    color: black;
+    animation: vibrar 0.5s ease-in-out infinite both;
+}
+@keyframes vibrar {
+    0%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(1.1);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+
+
+ /* Serviços.html*/
+
+.text-service {
+    padding: 20px;
+    background-color: #a5a4a4;
+
+}
+.text-service h2 {
+    padding: 40px;
+}
+.list-service ul {
+    display: flex;
+    justify-content: center;
+    
+}
+.item-service {
+    list-style-type: none;
+    margin: 100px 10px;
+    padding: 40px 20px;
+    border: solid 2px #282829;
+    border-radius: 5px;
+    background-color: #fff;
+}

@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Inter, sans-serif;
+}
+body {
+    background-color: #ffffff;
+    height: 100vh;
+}
+header {
+    background-color: #282829;
+    box-shadow: 0px 3px 10px #000000;
+}
+.navegation {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem 6rem;
+}
+.logo {
+    color: #fff;
+    display: flex;
+    align-items: center;
+}
+.nav-list {
+    display: flex;
+    align-items: center;
+}
+.nav-list ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+.nav-items {
+    margin: 0 15px;
+}
+.nav-link {
+    text-decoration: none;
+    font-size: 1.15rem;
+    color: #fff;
+    font-weight: 600;
+}
+.nav-link:hover {
+    color: rgb(187, 140, 219);
+    font-size: 19px;
+    transition: 0.5s;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 7px;
+}
+.button button {
+    border: none;
+    background-color: blue;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.button button a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+}
+.button button:hover {
+    background-color: rgb(16, 55, 202);
+}
+.register {
+    border: solid 1px #8c8cac;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 20px;
+}
+.register form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.register label {
+    margin-bottom: 5px;
+}
+.register input {
+    margin-bottom: 10px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.button-send {
+    margin-left: 50%;
+}
+.button-send button {
+    padding: 10px 100px;
+    background-color: blue;
+    border: none;
+    box-shadow: 0px 5px 10px #8c8cac;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.button-send button a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+}
